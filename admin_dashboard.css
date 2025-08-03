@@ -1,0 +1,73 @@
+admin_dashboard.css
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f9f0;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.main-heading {
+  font-size: 28px;
+  color: #1e4d1e;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #2b6a2b;
+  margin-bottom: 25px;
+}
+
+.fee-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fee-section ul li {
+  margin: 15px 0;
+}
+
+.fee-section ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: #d6f5d6;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.fee-section ul li a:hover {
+  background-color: #2b6a2b;
+  color: white;
+}
+
+.logout {
+  margin-top: 30px;
+}
+
+.logout a {
+  background-color: #2b6a2b;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.logout a:hover {
+  background-color: #255c25;
+}
